@@ -10,9 +10,9 @@ const Projects = () => {
                 <div className="lg:w-1/2">
                     <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa maiores aliquid blanditiis possimus numquam enim sapiente in animi, explicabo ullam consequatur veritatis magnam modi saepe delectus laborum? Reprehenderit, alias.</h2>
                 </div>
-                <div className="lg:w-1/2 bg-gradient-to-r from-white to-cyan-100 text-black px-4 py-4 shadow-md shadow-white rounded-xl">
+                <div className="lg:w-1/2 mt-10 bg-gradient-to-r from-white to-cyan-100 text-black px-4 py-4 shadow-md shadow-white rounded-xl">
                     <h2 className="uppercase text-3xl font-semibold text-center pb-4">sports today</h2>
-                    <div className="text-center my-4">
+                    <div className="lg:text-center text-start my-4">
                         <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl mr-4 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://summer-camp-c5927.web.app/">Live Link</a>
                         <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl mr-4 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://github.com/Saadsheikh133/summer-camp-client"><FaGithub className="inline mr-2"></FaGithub>Client</a>
                         <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://github.com/Saadsheikh133/summer-camp-server"><FaGithub className="inline mr-2"></FaGithub>Server</a> 
@@ -33,12 +33,12 @@ const Projects = () => {
                 <div className="lg:w-1/2">
                     <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa maiores aliquid blanditiis possimus numquam enim sapiente in animi, explicabo ullam consequatur veritatis magnam modi saepe delectus laborum? Reprehenderit, alias.</h2>
                 </div>
-                <div className="lg:w-1/2 bg-gradient-to-r from-white to-cyan-100 text-black px-4 py-4 shadow-md shadow-white rounded-xl">
+                <div className="lg:w-1/2 bg-gradient-to-r mt-10 from-white to-cyan-100 text-black px-4 py-4 shadow-md shadow-white rounded-xl">
                     <h2 className="uppercase text-3xl font-semibold text-center pb-4">Toy Collections</h2>
-                    <div className="text-center my-4">
+                    <div className="lg:text-center text-start my-4">
                         <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl mr-4 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://toy-marketplace-f5677.web.app">Live Link</a>
-                        <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl mr-4 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://github.com/Saadsheikh133/toy-market-client"><FaGithub className="inline mr-2"></FaGithub>Client</a>
-                        <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl mr-4 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://github.com/Saadsheikh133/toy-market-server"><FaGithub className="inline mr-2"></FaGithub>Server</a>
+                        <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl mr-4 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://github.com/Saadsheikh133/toy-market-client"><FaGithub className="inline lg:mr-2 mr-1"></FaGithub>Client</a>
+                        <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl mr-4 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://github.com/Saadsheikh133/toy-market-server"><FaGithub className="inline lg:mr-2 mr-1"></FaGithub>Server</a>
                     </div>
                     <div>
                         <p>Here are some features about project---</p>
@@ -56,12 +56,12 @@ const Projects = () => {
                 <div className="lg:w-1/2">
                     <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa maiores aliquid blanditiis possimus numquam enim sapiente in animi, explicabo ullam consequatur veritatis magnam modi saepe delectus laborum? Reprehenderit, alias.</h2>
                 </div>
-                <div className="lg:w-1/2 bg-gradient-to-r from-white to-cyan-100 text-black px-4 py-4 shadow-md shadow-white rounded-xl">
+                <div className="lg:w-1/2 mt-10 bg-gradient-to-r from-white to-cyan-100 text-black px-4 py-4 shadow-md shadow-white rounded-xl">
                     <h2 className="uppercase text-3xl font-semibold text-center pb-4">Toy Collections</h2>
-                    <div className="text-center my-4">
+                    <div className="lg:text-center text-start my-4">
                         <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl mr-4 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://chef-recipe-hunter-483fd.firebaseapp.com/">Live Link</a>
-                        <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl mr-4 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://github.com/Saadsheikh133/chef-recipe-client"><FaGithub className="inline mr-2"></FaGithub>Client</a>
-                        <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl mr-4 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://github.com/Saadsheikh133/chef-recipe-server"><FaGithub className="inline mr-2"></FaGithub>Server</a>
+                        <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl mr-4 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://github.com/Saadsheikh133/chef-recipe-client"><FaGithub className="inline lg:mr-2 mr-1"></FaGithub>Client</a>
+                        <a className="lg:text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl mr-4 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://github.com/Saadsheikh133/chef-recipe-server"><FaGithub className="inline lg:mr-2 mr-1"></FaGithub>Server</a>
                     </div>
                     <div>
                         <p>Here are some features about project---</p>
