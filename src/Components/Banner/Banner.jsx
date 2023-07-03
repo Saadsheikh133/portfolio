@@ -1,6 +1,7 @@
 import Text from "../Text/Text";
 import "@lottiefiles/lottie-player";
 import resume from '../../assets/Front-end developer resume of Saad Bin Abdus Salam.pdf'
+import { FaDownload } from "react-icons/fa";
 
 const Banner = () => {
 
@@ -12,7 +13,7 @@ const Banner = () => {
                 <Text></Text>
                 <div>
                     <button className="btn btn-primary mr-4">Hire Me</button>
-                    <a href={resume} download className="btn btn-primary">Download Resume</a>
+                    <a href={resume} download className="btn btn-primary"><FaDownload></FaDownload> Resume</a>
                 </div>
             </div>
             <lottie-player
@@ -20,7 +21,7 @@ const Banner = () => {
                 loop
                 mode="normal"
                 src='../../../public/91382-web-development.json'
-                style={{ width: "300px" }}
+                style={{ width: "400px" }}
             ></lottie-player>
         </div>
     );
