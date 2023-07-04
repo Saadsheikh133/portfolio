@@ -3,6 +3,7 @@ import Banner from "../Banner/Banner";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
+// import ParticleBg from "../ParticleBg/ParticleBg";
 import Projects from "../Projects/Projects";
 import Skills from "../Skills/Skills";
 
@@ -17,6 +18,7 @@ const Home = () => {
             <Projects></Projects>
             <Contact></Contact>
             <Footer></Footer>
+            {/* <ParticleBg></ParticleBg> */}
         </div>
     );
 };

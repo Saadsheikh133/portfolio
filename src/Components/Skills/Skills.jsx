@@ -13,7 +13,7 @@ import firebase from '../../assets/image/firebase.jpg'
 
 const Skills = () => {
     return (
-        <div>
+        <section id='skill'>
             <h2 className='text-center my-10 text-4xl font-bold'>My <span className='text-orange-500'>Skills</span></h2>
             <div className='my-20 px-2 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10'>
                 <div className="card w-32 lg:w-52 bg-gradient-to-t from-black to-slate-700  shadow-orange-500 shadow-md">
@@ -113,7 +113,7 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-       </div>
+       </section>
     );
 };
 

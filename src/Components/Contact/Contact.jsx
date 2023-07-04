@@ -18,7 +18,7 @@ const Contact = () => {
     };
 
     return (
-        <div className='my-20'>
+        <div id='contact' className='my-20'>
             <h2 className="text-4xl font-bold text-center mt-36 "><span className="text-orange-500">Contact</span> Me</h2>
             <div className='lg:flex gap-4 w-full items-center'>
                 <div className='lg:w-1/2'>
