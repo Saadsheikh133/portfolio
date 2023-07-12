@@ -1,6 +1,7 @@
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
-import "@lottiefiles/lottie-player";
+import Lottie from 'react-lottie-player';
+import contact from '../../../public/76038-contact-mail.json'
 
 const Contact = () => {
     const form = useRef();
@@ -22,14 +23,12 @@ const Contact = () => {
             <h2 className="text-4xl font-bold text-center mt-36 "><span className="text-orange-500">Contact</span> Me</h2>
             <div className='lg:flex gap-4 w-full items-center'>
                 <div className='lg:w-1/2'>
-                    <lottie-player
-                        autoplay
+                    <Lottie
+                        animationData={contact}
+                        play
                         loop
-                        mode="normal"
-                        src="../../../public/76038-contact-mail.json"
-                        style={{  margin: 'auto' }}
-                    >
-                    </lottie-player>
+                        style={{ width: "400px" }}
+                    />
                 </div>
                 <div className='lg:w-1/2 mx-2'>
                     <form ref={form} onSubmit={sendEmail}>

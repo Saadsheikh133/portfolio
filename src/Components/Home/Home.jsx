@@ -10,8 +10,10 @@ import Skills from "../Skills/Skills";
 
 const Home = () => {
     return (
-        <div>
-            <Navbar></Navbar>
+        <div className="px-5 lg:px-10">
+            <div className="sticky top-0 z-10">
+                <Navbar></Navbar>
+            </div>
             <Banner></Banner>
             <About></About>
             <Skills></Skills>
