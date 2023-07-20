@@ -36,7 +36,9 @@ const Projects = () => {
         <div id="project" className="my-10">
             <h2 className="text-5xl text-center font-bold my-10"><span className="text-orange-500">My</span> Projects</h2>
             <div className="lg:w-full lg:flex gap-4 px-2 my-10 items-center">
-                <div className="lg:w-1/2 rounded-xl mt-10">
+                <div data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="1000" className="lg:w-1/2 rounded-xl mt-10">
                         <Swiper
                             effect={'coverflow'}
                             grabCursor={true}
@@ -79,7 +81,9 @@ const Projects = () => {
                             </SwiperSlide>
                         </Swiper>
                 </div>
-                <div className="lg:w-1/2 mt-10 bg-gradient-to-r from-white to-cyan-100 text-black px-4 py-4 shadow-md shadow-white rounded-xl">
+                <div data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1000" className="lg:w-1/2 mt-10 bg-gradient-to-r from-white to-cyan-100 text-black px-4 py-4 shadow-md shadow-white rounded-xl">
                     <h2 className="uppercase text-3xl font-semibold text-center pb-4">sports today</h2>
                     <div className="lg:text-center text-start my-4">
                         <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl mr-4 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://summer-camp-c5927.web.app/">Live Link</a>
@@ -99,7 +103,9 @@ const Projects = () => {
                 </div>
             </div>
             <div className="lg:w-full lg:flex gap-4 px-2 my-20">
-                <div className="lg:w-1/2 rounded-xl mt-10">
+                <div data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" className="lg:w-1/2 rounded-xl mt-10">
                     <Swiper
                         effect={'coverflow'}
                         grabCursor={true}
@@ -142,7 +148,9 @@ const Projects = () => {
                         </SwiperSlide>
                     </Swiper>
                 </div>
-                <div className="lg:w-1/2 bg-gradient-to-r mt-10 from-white to-cyan-100 text-black px-4 py-4 shadow-md shadow-white rounded-xl">
+                <div data-aos="flip-right"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" className="lg:w-1/2 bg-gradient-to-r mt-10 from-white to-cyan-100 text-black px-4 py-4 shadow-md shadow-white rounded-xl">
                     <h2 className="uppercase text-3xl font-semibold text-center pb-4">Toy Collections</h2>
                     <div className="lg:text-center text-start my-4">
                         <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl mr-4 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://toy-marketplace-f5677.web.app">Live Link</a>
@@ -162,7 +170,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className="lg:w-full lg:flex gap-4 px-2 my-20">
-                <div className="lg:w-1/2 rounded-xl mt-10">
+                <div data-aos="zoom-out-right" data-aos-duration="1000" className="lg:w-1/2 rounded-xl mt-10">
                     <Swiper
                         effect={'coverflow'}
                         grabCursor={true}
@@ -202,7 +210,7 @@ const Projects = () => {
                         </SwiperSlide>
                     </Swiper>
                 </div>
-                <div className="lg:w-1/2 mt-10 bg-gradient-to-r from-white to-cyan-100 text-black px-4 py-4 shadow-md shadow-white rounded-xl">
+                <div data-aos="zoom-out-right" data-aos-duration="1000" className="lg:w-1/2 mt-10 bg-gradient-to-r from-white to-cyan-100 text-black px-4 py-4 shadow-md shadow-white rounded-xl">
                     <h2 className="uppercase text-3xl font-semibold text-center pb-4">Healthy Foods</h2>
                     <div className="lg:text-center text-start my-4">
                         <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl mr-4 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://chef-recipe-hunter-483fd.firebaseapp.com/">Live Link</a>

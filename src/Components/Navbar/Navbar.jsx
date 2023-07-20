@@ -3,7 +3,7 @@ import { Link } from 'react-scroll'
 const Navbar = () => {
     return (
         <div>
-            <nav className="navbar justify-between bg-white text-black rounded-lg z-10 top-0">
+            <nav className="navbar justify-between bg-gradient-to-r from-white to-cyan-100 text-black rounded-lg z-10 top-0">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
