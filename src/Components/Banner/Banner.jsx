@@ -1,5 +1,5 @@
 import Text from "../Text/Text";
-import resume from '../../assets/Front-end developer resume of Saad Bin Abdus Salam_2.pdf'
+import resume from '../../../public/pdf/Front-end developer resume of Saad Bin Abdus Salam.pdf'
 import { FaDownload } from "react-icons/fa";
 import { Link } from "react-scroll";
 import Lottie from "react-lottie-player";
