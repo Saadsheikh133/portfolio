@@ -14,7 +14,7 @@ const About = () => {
                 <p className={`${text ? "hidden" : "block"}`}>On the front-end, I am skilled in HTML, CSS, and JavaScript, and I am familiar with modern frameworks and libraries such as React.js. I enjoy transforming design mockups into interactive and responsive user interfaces that provide an exceptional user experience.</p>
                 <p className={`${text ? "hidden" : "block"}`}>When it comes to the back-end, I am proficient in server-side programming languages like JavaScript (Node.js). I have worked with databases such as MongoDB, and I am comfortable creating and optimizing database schemas to ensure efficient data management.</p>
                 <p className={`${text ? "hidden" : "block"}`}>I am a fast learner, always eager to expand my knowledge and stay up to date with the latest technologies and best practices in web development. I enjoy collaborating with teams and contributing to the success of projects. I am excited about the opportunity to apply my skills and grow as a full-stack web developer.</p>
-                <button onClick={() => setText(!text)} className="btn btn-primary btn-sm">{text ? "See More" : "See Less"}</button>
+                <button onClick={() => setText(!text)} className="btn text-white bg-gradient-to-r from-purple-600 to-cyan-400 btn-sm">{text ? "See More" : "See Less"}</button>
             </div>
        </section>
     );

@@ -56,28 +56,28 @@ const Projects = () => {
                             className="mySwiper"
                         >
                             <SwiperSlide>
-                                <img className="lg:h-[500px] rounded-xl" src={banner} />
+                                <img className="lg:h-[500px] object-cover rounded-xl" src={banner} />
                             </SwiperSlide>
                             <SwiperSlide>
-                            <img className="lg:h-[500px] rounded-xl" src={classes} />
+                            <img className="lg:h-[500px] object-cover rounded-xl" src={classes} />
                             </SwiperSlide>
                             <SwiperSlide>
-                            <img className="lg:h-[500px] rounded-xl" src={classes2} />
+                            <img className="lg:h-[500px] object-cover rounded-xl" src={classes2} />
                             </SwiperSlide>
                             <SwiperSlide>
-                            <img className="lg:h-[500px] rounded-xl" src={instructor} />
+                            <img className="lg:h-[500px] object-cover rounded-xl" src={instructor} />
                             </SwiperSlide>
                             <SwiperSlide>
-                            <img className="lg:h-[500px] rounded-xl" src={instructors} />
+                            <img className="lg:h-[500px] object-cover rounded-xl" src={instructors} />
                             </SwiperSlide>
                             <SwiperSlide>
-                            <img className="lg:h-[500px] rounded-xl" src={footer} />
+                            <img className="lg:h-[500px] object-cover rounded-xl" src={footer} />
                             </SwiperSlide>
                             <SwiperSlide>
-                            <img className="lg:h-[500px] rounded-xl" src={manageClass} />
+                            <img className="lg:h-[500px] object-cover rounded-xl" src={manageClass} />
                             </SwiperSlide>
                             <SwiperSlide>
-                            <img className="lg:h-[500px] rounded-xl" src={manageUser} />
+                            <img className="lg:h-[500px] object-cover rounded-xl" src={manageUser} />
                             </SwiperSlide>
                         </Swiper>
                 </div>
@@ -86,8 +86,8 @@ const Projects = () => {
                     data-aos-duration="1000" className="lg:w-1/2 mt-10 bg-gradient-to-r from-white to-cyan-100 text-black px-4 py-4 shadow-md shadow-white rounded-xl">
                     <h2 className="uppercase text-3xl font-semibold text-center pb-4">sports today</h2>
                     <div className="lg:text-center text-start my-4">
-                        <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl mr-4 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://summer-camp-c5927.web.app/">Live Link</a>
-                        <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl mr-4 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://github.com/Saadsheikh133/summer-camp-client"><FaGithub className="inline mr-2"></FaGithub>Client</a>
+                        <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl mr-2 lg:mr-4 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://summer-camp-c5927.web.app/">Live Link</a>
+                        <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-2  lg:px-4 py-2 rounded-2xl mr-2 lg:mr-4 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://github.com/Saadsheikh133/summer-camp-client"><FaGithub className="inline mr-2"></FaGithub>Client</a>
                         <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://github.com/Saadsheikh133/summer-camp-server"><FaGithub className="inline mr-2"></FaGithub>Server</a>
                     </div>
                     <div>
@@ -123,28 +123,28 @@ const Projects = () => {
                         className="mySwiper"
                     >
                         <SwiperSlide>
-                            <img className="lg:h-[500px] rounded-xl" src={toyB} />
+                            <img className="lg:h-[500px] object-cover rounded-xl" src={toyB} />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="lg:h-[500px] rounded-xl" src={toy} />
+                            <img className="lg:h-[500px] object-cover rounded-xl" src={toy} />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="lg:h-[500px] rounded-xl" src={newToy} />
+                            <img className="lg:h-[500px] object-cover rounded-xl" src={newToy} />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="lg:h-[500px] rounded-xl" src={best} />
+                            <img className="lg:h-[500px] object-cover rounded-xl" src={best} />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="lg:h-[500px] rounded-xl" src={category} />
+                            <img className="lg:h-[500px] object-cover rounded-xl" src={category} />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="lg:h-[500px] rounded-xl" src={toyFooter} />
+                            <img className="lg:h-[500px] object-cover rounded-xl" src={toyFooter} />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="lg:h-[500px] rounded-xl" src={allToys} />
+                            <img className="lg:h-[500px] object-cover rounded-xl" src={allToys} />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="lg:h-[500px] rounded-xl" src={addToy} />
+                            <img className="lg:h-[500px] object-cover rounded-xl" src={addToy} />
                         </SwiperSlide>
                     </Swiper>
                 </div>
@@ -153,9 +153,9 @@ const Projects = () => {
                     data-aos-duration="2000" className="lg:w-1/2 bg-gradient-to-r mt-10 from-white to-cyan-100 text-black px-4 py-4 shadow-md shadow-white rounded-xl">
                     <h2 className="uppercase text-3xl font-semibold text-center pb-4">Toy Collections</h2>
                     <div className="lg:text-center text-start my-4">
-                        <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl mr-4 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://toy-marketplace-f5677.web.app">Live Link</a>
-                        <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl mr-4 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://github.com/Saadsheikh133/toy-market-client"><FaGithub className="inline lg:mr-2 mr-1"></FaGithub>Client</a>
-                        <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl mr-4 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://github.com/Saadsheikh133/toy-market-server"><FaGithub className="inline lg:mr-2 mr-1"></FaGithub>Server</a>
+                        <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl mr-2 lg:mr-4 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://toy-marketplace-f5677.web.app">Live Link</a>
+                        <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-2 lg:px-4 py-2 rounded-2xl mr-2 lg:mr-4 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://github.com/Saadsheikh133/toy-market-client"><FaGithub className="inline lg:mr-2 mr-1"></FaGithub>Client</a>
+                        <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl mr-2 lg:mr-4 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://github.com/Saadsheikh133/toy-market-server"><FaGithub className="inline lg:mr-2 mr-1"></FaGithub>Server</a>
                     </div>
                     <div>
                         <p>Here are some features about project---</p>
@@ -188,34 +188,34 @@ const Projects = () => {
                         className="mySwiper"
                     >
                         <SwiperSlide>
-                            <img className="lg:h-[500px] rounded-xl" src={foodB} />
+                            <img className="lg:h-[500px] object-cover rounded-xl" src={foodB} />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="lg:h-[500px] rounded-xl" src={chef} />
+                            <img className="lg:h-[500px] object-cover rounded-xl" src={chef} />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="lg:h-[500px] rounded-xl" src={chefs} />
+                            <img className="lg:h-[500px] object-cover rounded-xl" src={chefs} />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="lg:h-[500px] rounded-xl" src={pitha} />
+                            <img className="lg:h-[500px] object-cover rounded-xl" src={pitha} />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="lg:h-[500px] rounded-xl" src={slider} />
+                            <img className="lg:h-[500px] object-cover rounded-xl" src={slider} />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="lg:h-[500px] rounded-xl" src={foodfoter} />
+                            <img className="lg:h-[500px] object-cover rounded-xl" src={foodfoter} />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="lg:h-[500px] rounded-xl" src={blog} />
+                            <img className="lg:h-[500px] object-cover rounded-xl" src={blog} />
                         </SwiperSlide>
                     </Swiper>
                 </div>
                 <div data-aos="zoom-out-right" data-aos-duration="1000" className="lg:w-1/2 mt-10 bg-gradient-to-r from-white to-cyan-100 text-black px-4 py-4 shadow-md shadow-white rounded-xl">
                     <h2 className="uppercase text-3xl font-semibold text-center pb-4">Healthy Foods</h2>
                     <div className="lg:text-center text-start my-4">
-                        <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl mr-4 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://chef-recipe-hunter-483fd.firebaseapp.com/">Live Link</a>
-                        <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl mr-4 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://github.com/Saadsheikh133/chef-recipe-client"><FaGithub className="inline lg:mr-2 mr-1"></FaGithub>Client</a>
-                        <a className="lg:text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl mr-4 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://github.com/Saadsheikh133/chef-recipe-server"><FaGithub className="inline lg:mr-2 mr-1"></FaGithub>Server</a>
+                        <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl lg:mr-4 mr-2 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://chef-recipe-hunter-483fd.firebaseapp.com/">Live Link</a>
+                        <a className="text-center text-xl text-blue-600 hover:underline border border-blue-500 lg:px-4 px-2 py-2 rounded-2xl lg:mr-4 mr-2 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://github.com/Saadsheikh133/chef-recipe-client"><FaGithub className="inline lg:mr-2 mr-1"></FaGithub>Client</a>
+                        <a className="lg:text-center text-xl text-blue-600 hover:underline border border-blue-500 px-4 py-2 rounded-2xl lg:mr-4 mr-2 hover:bg-gradient-to-r from-cyan-500 to-purple-500 hover:text-white" href="https://github.com/Saadsheikh133/chef-recipe-server"><FaGithub className="inline lg:mr-2 mr-1"></FaGithub>Server</a>
                     </div>
                     <div>
                         <p>Here are some features about project---</p>

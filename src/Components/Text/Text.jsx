@@ -2,7 +2,7 @@ import Typewriter from 'typewriter-effect';
 
 const Text = () => {
     return (
-        <div className='uppercase text-3xl py-5'>
+        <div className='uppercase text-2xl font-semibold py-5'>
             <Typewriter
                 options={{
                     strings: [

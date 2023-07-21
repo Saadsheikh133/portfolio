@@ -27,7 +27,6 @@ const Contact = () => {
                         animationData={contact}
                         play
                         loop
-                        style={{ width: "400px" }}
                     />
                 </div>
                 <div className='lg:w-1/2 mx-2'>
@@ -38,7 +37,7 @@ const Contact = () => {
                         <input className='py-2 px-2 lg:w-3/4 w-full rounded-lg my-4' type="email" name="from_email" placeholder='Your Email' /><br />
                         <label>Message</label><br />
                         <textarea className='py-2 px-2 lg:w-3/4 w-full rounded-lg my-2' name="message" placeholder='Your Message' /><br />
-                        <input className='btn btn-primary' type="submit" value="Send" /><br />
+                        <input className='bg-gradient-to-r from-purple-600 to-cyan-400 text-white py-3 px-6 rounded-lg cursor-pointer' type="submit" value="Send" /><br />
                     </form>
                     </div>
            </div>
